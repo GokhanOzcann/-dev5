@@ -1,0 +1,96 @@
+body{
+    
+}
+.scroller {
+    height: 900px;
+    overflow-y: scroll;
+    scrollbar-color: rebeccapurple green;
+    scrollbar-width: thin;
+  }
+  
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(54,107, 135);
+    height: 80px;
+}
+.logo{
+    padding-left: 20%;
+   
+}
+.logo a{
+    color:white;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+}
+.logo a:hover{
+    color: black;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    margin-right: 3%;
+    
+}
+.menu a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    padding-left: 2%;
+    
+    
+}
+.menu a:hover{
+    font-weight: bold;
+}
+.slider{
+    background-color:rgb(158,98, 85);
+    
+    height: 400px;
+    width: auto;
+    text-indent: 10px;
+    
+   
+}
+.slider p{
+    text-align: center;
+    color: white;
+    
+    
+    padding-top: 3%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 54px;
+    letter-spacing: 1px;
+    text-indent: 20px;
+    font-style: italic;
+    
+}
+.photos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.img{
+    height:200px ;
+    width: 300px;
+    border: solid 1px black;
+    background-color: grey;
+}
+.box p{
+    border: solid 1px grey;
+    height: 45px;
+    padding-left: 10%;
+    font-weight: bold;
+}
+.card{
+    height: 500px;
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+}
